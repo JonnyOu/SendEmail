@@ -8,7 +8,8 @@ spring:
       mail.smtp.auth: true
       mail.smtp.ssl.enable: true
 
+server:
+  port: 9090
+
 mail:
-  to:
-    - 1647063649@qq.com
-    - jonnyou1012@163.com
+  to: 1647063649@qq.com,jonnyou1012@163.com

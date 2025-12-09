@@ -1,0 +1,14 @@
+spring:
+  mail:
+    host: smtp.163.com
+    port: 465
+    username: jonnyou1012@163.com
+    password: LUrKeZM7eVCaEv9D
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.ssl.enable: true
+
+mail:
+  to:
+    - 1647063649@qq.com
+    - jonnyou1012@163.com

@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev
   mail:
     host: smtp.163.com
     port: 465
@@ -10,6 +12,3 @@ spring:
 
 server:
   port: 9090
-
-mail:
-  to: 1647063649@qq.com,3389257585@qq.com
